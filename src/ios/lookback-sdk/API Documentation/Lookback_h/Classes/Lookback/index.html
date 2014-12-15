@@ -291,6 +291,8 @@ display this UI whenever you shake your device.<!-- headerDoc=discussion;uid=//a
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">+setupWithAppToken:</a></tt></dt>
 <dd></dd>
+<dt><tt><a href="index.html#//apple_ref/occ/clm/Lookback/sharedLookback" target="_top">+sharedLookback</a></tt></dt>
+<dd></dd>
 </dl>
 <hr class="betweenAPIEntries">
 <!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Lookback/enteredView:;   name=Lookback::enteredView: --><a name="//apple_ref/occ/instm/Lookback/enteredView:"></a>
@@ -354,8 +356,9 @@ display this UI whenever you shake your device.<!-- headerDoc=discussion;uid=//a
 <pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/lookback;name=start -->+ (<a machinegenerated="true" href="index.html#//apple_ref/occ/cl/Lookback" logicalPath="//apple_ref/occ/cl/Lookback" target="_top"><span class="type">Lookback</span></a><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/lookback //apple_ref/occ/data/Lookback/lookback //apple_ref/occ/data/lookback //apple_ref/occ/clconst/Lookback/lookback " machineGenerated="true" --><span class="var">lookback</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/lookback;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
-<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/lookback;name=start --><p>Shared instance of Lookback to use from your code. You must call
-+[Lookback <a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">setupWithAppToken:</a>] before calling this method.
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/lookback;name=start --><p>Deprecated: use <a href="index.html#//apple_ref/occ/clm/Lookback/sharedLookback" logicalPath="//apple_ref/occ/clm/Lookback/sharedLookback" target="_top">sharedLookback</a> instead. This is because Swift
+disallows the use of a static method with the same name as the class that isn't
+a constructor.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/lookback;name=end --><!-- end discussion -->
 </p>
 <hr class="betweenAPIEntries">
@@ -380,6 +383,18 @@ display this UI whenever you shake your device.<!-- headerDoc=discussion;uid=//a
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start --><p>In your applicationDidFinishLaunching: or similar, call this method to prepare
 Lookback for use, using the App Token from your integration guide at lookback.io.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=end --><!-- end discussion -->
+</p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=clm;  uid=//apple_ref/occ/clm/Lookback/sharedLookback;   name=Lookback::sharedLookback --><a name="//apple_ref/occ/clm/Lookback/sharedLookback"></a>
+<h3><a name="sharedLookback">sharedLookback</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=start -->+ (<a machinegenerated="true" href="index.html#//apple_ref/occ/cl/Lookback" logicalPath="//apple_ref/occ/cl/Lookback" target="_top"><span class="type">Lookback</span></a><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/sharedLookback //apple_ref/occ/data/Lookback/sharedLookback //apple_ref/occ/data/sharedLookback //apple_ref/occ/clconst/Lookback/sharedLookback " machineGenerated="true" --><span class="var">sharedLookback</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=start --><p>Shared instance of Lookback to use from your code. You must call
++[Lookback <a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">setupWithAppToken:</a>] before calling this method.
+<!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=end --><!-- end discussion -->
 </p>
 <hr class="betweenSections">
 <a name="HeaderDoc_props"></a>
@@ -478,7 +493,7 @@ you can use that here. Optional.
 <p class="gapBeforeFooter">&nbsp;</p>
 <hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
-<p class="hd_timestamp">Last Updated: Monday, July 14, 2014
+<p class="hd_timestamp">Last Updated: Thursday, October 09, 2014
 </p>
 </div>
 </td>

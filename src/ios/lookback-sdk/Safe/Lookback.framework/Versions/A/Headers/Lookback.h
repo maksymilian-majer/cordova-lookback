@@ -28,6 +28,12 @@
 /*! Shared instance of Lookback to use from your code. You must call
     +[Lookback @link setupWithAppToken:@/link] before calling this method.
  */
++ (Lookback*)sharedLookback;
+
+/*! Deprecated: use @link sharedLookback @/link instead. This is because Swift
+	disallows the use of a static method with the same name as the class that isn't
+	a constructor.
+ */
 + (Lookback*)lookback;
 
 /*! Whether Lookback is set to recording. You can either set this programmatically,
