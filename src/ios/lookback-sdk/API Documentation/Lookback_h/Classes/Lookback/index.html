@@ -287,6 +287,8 @@ display this UI whenever you shake your device.<!-- headerDoc=discussion;uid=//a
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/instm/Lookback/exitedView:" target="_top">-exitedView:</a></tt></dt>
 <dd></dd>
+<dt><tt><a href="index.html#//apple_ref/occ/instm/Lookback/logEvent:eventInfo:" target="_top">-logEvent:eventInfo:</a></tt></dt>
+<dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/clm/Lookback/lookback" target="_top">+lookback</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">+setupWithAppToken:</a></tt></dt>
@@ -348,6 +350,35 @@ display this UI whenever you shake your device.<!-- headerDoc=discussion;uid=//a
 <dt><p><a href="../../index.html#//apple_ref/c/data/Lookback.h/LookbackAutomaticallyLogViewAppearance" logicalPath="//apple_ref/c/data/Lookback.h/LookbackAutomaticallyLogViewAppearance" target="_top">LookbackAutomaticallyLogViewAppearance</a></p></dt>
 <dd></dd>
 </dl></div>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instm;  uid=//apple_ref/occ/instm/Lookback/logEvent:eventInfo:;   name=Lookback::logEvent:eventInfo: --><a name="//apple_ref/occ/instm/Lookback/logEvent:eventInfo:"></a>
+<h3><a name="logEvent:eventInfo:">logEvent:eventInfo:</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/instm/Lookback/logEvent:eventInfo:;name=start -->- (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<a machinegenerated="true" href="index.html#//apple_ref/occ/instm/Lookback/logEvent:eventInfo:" logicalPath="//apple_ref/occ/instm/Lookback/logEvent" target="_top"><span class="function">logEvent</span></a>:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --><span class="type">NSString</span><!-- /a --><span class="type">*</span>)<span class="param">event</span> <a machinegenerated="true" href="index.html#//apple_ref/doc/methodparam/Lookback/logEvent:eventInfo:/eventInfo" logicalPath="//apple_ref/occ/instm/Lookback/eventInfo //apple_ref/occ/clm/Lookback/eventInfo //apple_ref/occ/intfcm/Lookback/eventInfo //apple_ref/occ/intfm/Lookback/eventInfo //apple_ref/occ/func/eventInfo //apple_ref/occ/ftmplt/Lookback/eventInfo //apple_ref/occ/defn/eventInfo //apple_ref/occ/macro/eventInfo //apple_ref/doc/anysymbol/eventInfo" target="_top"><span class="function">eventInfo</span></a>:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --><span class="type">NSString</span><!-- /a --><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/eventInfo //apple_ref/occ/data/Lookback/eventInfo //apple_ref/occ/data/eventInfo //apple_ref/occ/clconst/Lookback/eventInfo " machineGenerated="true" --><span class="var">eventInfo</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/instm/Lookback/logEvent:eventInfo:;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
+<div class="param_indent">
+<dl>
+<dt>
+<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/Lookback/logEvent:eventInfo:/event;   name=logEvent:eventInfo:::event -->
+<a name="//apple_ref/doc/methodparam/Lookback/logEvent:eventInfo:/event"></a>
+<code>event</code>
+</dt>
+<dd><p>The name of the event: this is the string that will show up
+                                         on the timeline.</p></dd>
+<dt>
+<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/Lookback/logEvent:eventInfo:/eventInfo;   name=logEvent:eventInfo:::eventInfo -->
+<a name="//apple_ref/doc/methodparam/Lookback/logEvent:eventInfo:/eventInfo"></a>
+<code>eventInfo</code>
+</dt>
+<dd><p>Additional information about the event, for example error
+                         code, interaction variation, etc.</p></dd>
+</dl>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/instm/Lookback/logEvent:eventInfo:;name=start --><p>*<!-- headerDoc=discussion;uid=//apple_ref/occ/instm/Lookback/logEvent:eventInfo:;name=end --><!-- end discussion -->
+</p>
 <hr class="betweenAPIEntries">
 <!-- headerDoc=clm;  uid=//apple_ref/occ/clm/Lookback/lookback;   name=Lookback::lookback --><a name="//apple_ref/occ/clm/Lookback/lookback"></a>
 <h3><a name="lookback">lookback</a></h3>
@@ -493,7 +524,7 @@ you can use that here. Optional.
 <p class="gapBeforeFooter">&nbsp;</p>
 <hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
-<p class="hd_timestamp">Last Updated: Thursday, October 09, 2014
+<p class="hd_timestamp">Last Updated: Monday, December 22, 2014
 </p>
 </div>
 </td>

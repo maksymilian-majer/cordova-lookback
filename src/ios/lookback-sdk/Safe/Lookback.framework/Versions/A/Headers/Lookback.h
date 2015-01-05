@@ -19,6 +19,8 @@
 */
 @interface Lookback : NSObject
 
+#pragma mark Setup
+
 /*! In your applicationDidFinishLaunching: or similar, call this method to prepare
     Lookback for use, using the App Token from your integration guide at lookback.io.
     @param appToken A string identifying your app, received from your app settings at http://lookback.io
@@ -35,6 +37,8 @@
 	a constructor.
  */
 + (Lookback*)lookback;
+
+#pragma mark Recording
 
 /*! Whether Lookback is set to recording. You can either set this programmatically,
     or use @link LookbackSettingsViewController @/link to let the user activate it.
@@ -55,6 +59,21 @@
  */
 @property(nonatomic,getter=isPaused) BOOL paused;
 
+/*! Lookback automatically sets a screen recording framerate that is suitable for your
+	device. However, if your app is very performance intense, you might want to decrease
+	the framerate at which Lookback records to free up some CPU time for your app. This
+	multiplier lets you adapt the framerate that Lookback chooses for you to something
+	more suitable for your app.
+	
+	Default value: 1.0
+	Range: 0.1 to 1.0
+	
+	@see LookbackScreenRecorderFramerateLimitKey
+*/
+@property(nonatomic) float framerateMultiplier;
+
+#pragma mark Metadata
+
 /*! Identifier for the user who's currently using the app. You can filter on
     this property at lookback.io later. If your service has log in user names,
     you can use that here. Optional.
@@ -74,18 +93,25 @@
 */
 - (void)exitedView:(NSString*)viewIdentifier;
 
-/*! Lookback automatically sets a screen recording framerate that is suitable for your
-	device. However, if your app is very performance intense, you might want to decrease
-	the framerate at which Lookback records to free up some CPU time for your app. This
-	multiplier lets you adapt the framerate that Lookback chooses for you to something
-	more suitable for your app.
+/*!	You might want to track events beyond user navigation; such as errors,
+    user interaction milestones, network events, etc. Call this method whenever
+	such an event is happening, and if a recording is taking place, the event
+	will be attached to the timeline of that recording.
 	
-	Default value: 1.0
-	Range: 0.1 to 1.0
+	@example <pre>
+		[[Lookback_Weak lookback]
+			logEvent:@"Playback Error"
+			eventInfo:[NSString stringWithFormat:@"%d: %@",
+				error.errorCode, error.localizedDescription]
+		];
 	
-	@see LookbackScreenRecorderFramerateLimitKey
+	@param event     The name of the event: this is the string that will show up
+					 on the timeline.
+	@param eventInfo Additional information about the event, for example error
+	                 code, interaction variation, etc.
 */
-@property(nonatomic) float framerateMultiplier;
+- (void)logEvent:(NSString*)event eventInfo:(NSString*)eventInfo;
+
 
 // For debugging
 @property(nonatomic,readonly) NSString *appToken;
@@ -142,11 +168,8 @@
     from LookbackSettingsViewController.
 */
 
-/*! If you implement the method `+(NSString*)lookBackIdentifier` in your view controller, that view will automatically be logged under that name (and later filter on it at lookback.io). Otherwise, your view controller's class name will be used instead, with prefix ("UI") and suffix ("ViewController") removed. You can disable this behavior by setting the NSUserDefaults key `LookbackAutomaticallyLogViewAppearance` to NO, and calling `-[LookBack enteredView:]` and `-[LookBack exitedView:]` methods manually.*/
-static NSString *const LookbackAutomaticallyLogViewAppearance = @"com.thirdcog.lookback.autologViews";
-
-/*! Normally when you start a recording, it will be paused whenever the application becomes inactive (backgrounded or screen locked). If you record a very long experience, it will take a long time to upload, and be difficult to manage. In this case, you might want to enable the "Upload when inactive" option in Settings (or the LookbackAutosplitSettingsKey BOOL NSUserDefaults key). Then, recording will stop when the app is inactive, the short experience uploaded, and a new recording started anew when the app becomes active.*/
-static NSString *const LookbackAutosplitSettingsKey = @"com.thirdcog.lookback.autosplit";
+/*! If you implement the method `+(NSString*)lookBackIdentifier` in your view controller, that view will automatically be logged under that name (and later filter on it at lookback.io). Otherwise, your view controller's class name will be used instead, with prefix ("UI") and suffix ("ViewController") removed. You can disable this behavior by setting the NSUserDefaults key `LookbackAutomaticallyLogViewAppearance` to NO, and calling `-[LookBack enteredView:]` and `-[Lookback exitedView:]` methods manually.*/
+static NSString *const LookbackAutomaticallyLogViewAppearance = @"GFio.lookback.autologViews";
 
 /*! LookbackCameraEnabledSettingsKey controls whether the front-facing camera will record, in addition to recording the screen. */
 static NSString *const LookbackCameraEnabledSettingsKey = @"com.thirdcog.lookback.camera.enabled";
@@ -156,13 +179,6 @@ static NSString *const LookbackAudioEnabledSettingsKey = @"com.thirdcog.lookback
 
 /*! The BOOL NSUserDefaults key LookbackShowPreviewSettingsKey controls whether the user should be shown a preview image of their face at the bottom-right of the screen while recording, to make sure that they are holding their iPhone correctly and are well-framed. */
 static NSString *const LookbackShowPreviewSettingsKey = @"com.thirdcog.lookback.preview.enabled";
-
-/*! The NSTimeInterval/double key LookbackShortestAllowedRecordingSettingsKey controls the shortest allowed
-	length of a recording. Shorter videos are deleted immediately after recording; longer videos are uploaded.
-	This is because very short videos are almost always recorded accidentally and aren't useful to upload.
-	Default is 5.0s.
-*/
-static NSString *const LookbackShortestAllowedRecordingSettingsKey = @"io.lookback.recording.minimumLength";
 
 /*! The integer NSUserDefaults key LookbackScreenRecorderFramerateLimitKey lets you set a specific framerate to limit screen
 	recording to. Note that Lookback adapts framerate to something suitable for the current device: setting the framerate
@@ -176,6 +192,38 @@ static NSString *const LookbackShortestAllowedRecordingSettingsKey = @"io.lookba
 	Range: 1 to 60
 */
 static NSString *const LookbackScreenRecorderFramerateLimitKey = @"com.thirdcog.lookback.screenrecorder.fpsLimit";
+
+/*! Standard timeout options for LookbackRecordingTimeoutSettingsKey. */
+typedef NS_ENUM(NSInteger, LookbackTimeoutOption) {
+	LookbackTimeoutImmediately = 0,
+	LookbackTimeoutAfter1Minutes = 60,
+	LookbackTimeoutAfter3Minutes = 180,
+	LookbackTimeoutAfter5Minutes = 300,
+	LookbackTimeoutAfter15Minutes = 900,
+	LookbackTimeoutAfter30Minutes = 1800,
+	LookbackTimeoutNever = NSIntegerMax,
+};
+
+/*! The NSTimeInterval/double key LookbackRecordingTimeoutOptionSettingsKey controls the timeout option when
+	the app becomes inactive. Using 0 will stop a recording as soon as the app becomes inactive.
+	Using DBL_MAX will never terminate a recording when the app becomes inactive. Any value in between will
+	timeout and end the recording after the specified duration.
+ */
+static NSString *const LookbackRecordingTimeoutSettingsKey = @"io.lookback.recording.timeoutDuration";
+
+typedef NS_ENUM(NSInteger, LookbackAfterTimeoutOption) {
+	LookbackAfterTimeoutReview = 0,
+	LookbackAfterTimeoutUpload,
+	LookbackAfterTimeoutUploadAndStartNewRecording,
+};
+
+/*! The LookbackAfterTimeoutOption key LookbackRecordingAfterTimeoutOptionSettingsKey controls the behavior of
+	Lookback when it times out after the app has become inactive. LookbackAfterTimeoutReview will let the user
+	manually review and decide the next the app is open. LookbackAfterTimeoutUpload will proceed with uploading.
+	LookbackAfterTimeoutUploadAndStartNewRecording will proceed with uploading and also start a new recording the
+	next time the app is brought to the foreground.
+ */
+static NSString *const LookbackRecordingAfterTimeoutOptionSettingsKey = @"io.lookback.recording.afterTimeoutOption";
 
 #pragma mark Notifications
 /*! @group Notifications
@@ -212,7 +260,6 @@ static NSString *const LookbackExperienceStartedAtUserInfoKey = @"com.thirdcog.l
  */
 #define LookBack Lookback
 #define GFAutomaticallyLogViewAppearance LookbackAutomaticallyLogViewAppearance
-#define GFAutosplitSettingsKey LookbackAutosplitSettingsKey
 #define GFCameraEnabledSettingsKey LookbackCameraEnabledSettingsKey
 #define GFAudioEnabledSettingsKey LookbackAudioEnabledSettingsKey
 #define GFShowPreviewSettingsKey LookbackShowPreviewSettingsKey
