@@ -1,6 +1,6 @@
 {
   "name": "io.lookback.sdk",
-  "version": "0.6.4",
+  "version": "0.8.1",
   "cordova_name": "Lookback",
   "description": "Cordova plugin for lookback.io",
   "repo": "git@github.com:lookback/cordova-lookback.git",
@@ -8,7 +8,7 @@
     "cordova",
     "lookback"
   ],
-  "author": "Joachim Bengtsson",
+  "author": "Nevyn Bengtsson",
   "license": "ISC",
   "platforms": [ 
     "ios"

@@ -21,7 +21,7 @@ Currently supported functions
 -----------------------------
 
 Most of the functionality of the
-[Lookback class](https://s3-eu-west-1.amazonaws.com/lookback-public/docs/ios/0.6.4/Lookback_h/Classes/Lookback/index.html#//apple_ref/occ/cl/Lookback)
+[Lookback class](https://s3-eu-west-1.amazonaws.com/lookback-public/docs/ios/0.8.1/Lookback_h/Classes/Lookback/index.html#//apple_ref/occ/cl/Lookback)
 has been implimented.
 
 ### setupWithAppToken
