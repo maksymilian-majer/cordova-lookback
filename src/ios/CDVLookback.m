@@ -1,10 +1,19 @@
 #import "CDVLookback.h"
 #import <Lookback/Lookback.h>
 
+static BOOL g_setupWithAppTokenHasBeenCalled = NO;
+
 @implementation CDVLookback
 
 - (void)setupWithAppToken:(CDVInvokedUrlCommand*)command
 {
+	if(g_setupWithAppTokenHasBeenCalled) {
+		NSLog(@"WARNING!! You just called Lookback.setupWithAppToken() a second time: this is incorrect, and would normally crash your app.");
+		[self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR] callbackId:command.callbackId];
+		return;
+	}
+	g_setupWithAppTokenHasBeenCalled = YES;
+	
     CDVPluginResult* pluginResult = nil;
     NSString* token = [command.arguments objectAtIndex:0];
 
