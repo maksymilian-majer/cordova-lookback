@@ -31,8 +31,7 @@
 
 /*!
 	Whether it should be possible to start/stop recording from this view.
-	Defaults to YES for compatibility with apps that don't use
-	LookbackRecordingViewController.
+	Defaults to NO. You are encouraged to use LookbackRecordingViewController instead.
  */
 @property(nonatomic) BOOL showsRecordButton;
 @end

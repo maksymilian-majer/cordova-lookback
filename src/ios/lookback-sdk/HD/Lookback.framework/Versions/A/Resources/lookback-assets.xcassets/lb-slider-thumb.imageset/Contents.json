@@ -2,7 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Oval 3.pdf"
+      "scale" : "1x",
+      "filename" : "lb-slider-thumb.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "lb-slider-thumb@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "lb-slider-thumb@3x.png"
     }
   ],
   "info" : {

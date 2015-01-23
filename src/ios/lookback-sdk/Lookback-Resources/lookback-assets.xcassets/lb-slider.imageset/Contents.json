@@ -2,18 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "progress bar.pdf",
-      "resizing" : {
-        "mode" : "3-part-horizontal",
-        "center" : {
-          "mode" : "stretch",
-          "width" : 10
-        },
-        "capInsets" : {
-          "right" : 6,
-          "left" : 8
-        }
-      }
+      "scale" : "1x",
+      "filename" : "lb-slider.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "lb-slider@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "lb-slider@3x.png"
     }
   ],
   "info" : {

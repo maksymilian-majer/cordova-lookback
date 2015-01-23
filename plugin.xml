@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="io.lookback.sdk"
-      version="0.8.1">
+      version="0.9.0">
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />

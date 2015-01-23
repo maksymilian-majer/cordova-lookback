@@ -2,7 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "pause.pdf"
+      "scale" : "1x",
+      "filename" : "lb-review-pause.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "lb-review-pause@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x",
+      "filename" : "lb-review-pause@3x.png"
     }
   ],
   "info" : {
