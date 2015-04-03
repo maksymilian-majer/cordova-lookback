@@ -41,7 +41,7 @@ static BOOL g_setupWithAppTokenHasBeenCalled = NO;
 {
     CDVPluginResult* pluginResult = nil;
     BOOL enabled = [[command.arguments objectAtIndex:0] boolValue];
-    [Lookback_Weak lookback].enabled = enabled;
+    [Lookback_Weak lookback].recording = enabled;
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
@@ -94,19 +94,9 @@ static BOOL g_setupWithAppTokenHasBeenCalled = NO;
     CDVPluginResult* pluginResult = nil;
     NSString* identifier = [command.arguments objectAtIndex:0];
 
-    if (identifier != nil && [identifier length] > 0) {
+    [Lookback_Weak lookback].options.userIdentifier = identifier;
 
-        if([identifier isEqualToString:@"deviceName"]){
-            [Lookback_Weak lookback].userIdentifier = [[UIDevice currentDevice] name];
-        } else {
-            [Lookback_Weak lookback].userIdentifier = identifier;
-        }
-
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
-
-    } else {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
-    }
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
 
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }

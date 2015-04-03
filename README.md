@@ -20,8 +20,8 @@ Install with `cordova plugin add https://github.com/lookback/cordova-lookback`
 Currently supported functions
 -----------------------------
 
-Most of the functionality of the
-[Lookback class](https://s3-eu-west-1.amazonaws.com/lookback-public/docs/ios/0.9.0/Lookback_h/Classes/Lookback/index.html#//apple_ref/occ/cl/Lookback)
+The most important pieces of functionality from the
+[full API](https://s3-eu-west-1.amazonaws.com/lookback-public/docs/ios/1.0.1/Lookback_h/Classes/Lookback/index.html#//apple_ref/occ/cl/Lookback)
 has been implimented.
 
 ### setupWithAppToken
@@ -31,8 +31,7 @@ call this first, once, and after device ready.
 true|false
 
 ### userIdentifier
-Some unique per-device identifier, or set to `deviceName` to use the
-currentDevice name as assigned by iOS. ([[UIDevice currentDevice] name]);
+If your app has a login system, you can use the user name from your own service to identify the user who made the recording.
 
 ### paused
 true|false
@@ -52,8 +51,6 @@ Example
             
             // optional: store user's name with recording
             window.Lookback.userIdentifier('name or email of user'); 
-            // or 
-            //window.Lookback.userIdentifier('deviceName');
         }, false);
 
 or to try some optional features:

@@ -20,7 +20,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
            id="io.lookback.sdk"
-      version="0.9.0">
+      version="1.0.1">
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
@@ -49,8 +49,7 @@
         <source-file src="src/ios/CDVLookback.m" />
         
         <framework src="src/ios/lookback-sdk/Safe/Lookback.framework" custom="true" />
-        <resource-file src="src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/GFSettings.storyboard" />
-        <resource-file src="src/ios/lookback-sdk/Lookback-Resources/lookback-assets.xcassets" />
+        <resource-file src="src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle" />
         <framework src="AVFoundation.framework" />
         <framework src="AudioToolbox.framework" />
         <framework src="CoreVideo.framework" />
@@ -58,6 +57,7 @@
         <framework src="SystemConfiguration.framework" />
         <framework src="MediaPlayer.framework" />
         <framework src="QuartzCore.framework" />
+        <framework src="libz.dylib" />
         
     </platform>
 </plugin>

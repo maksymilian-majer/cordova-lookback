@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-@class Lookback;
+@class Lookback, LookbackRecordingOptions;
 
 /*! @header Lookback Settings
     Class with helpers for managing Lookback recordings.
@@ -21,6 +21,11 @@
  *  You should present the result inside a UINavigationController.
  */
 + (instancetype)settingsViewController;
+
+/*!
+ *	Allow user to customize a specific options instance before you start recording with it.
+ */
++ (instancetype)settingsViewControllerForInstance:(Lookback*)lookback options:(LookbackRecordingOptions*)options;
 
 /*!
  *  Compatibility method for old code using the less convenient method.
