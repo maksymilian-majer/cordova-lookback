@@ -394,22 +394,23 @@ whenever you shake your device.<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/
 <h3><a name="setupWithAppToken:">setupWithAppToken:</a></h3>
 <hr class="afterName">
 <div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start -->+ (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<a machinegenerated="true" href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/instm/Lookback/setupWithAppToken //apple_ref/occ/clm/Lookback/setupWithAppToken" target="_top"><span class="function">setupWithAppToken</span></a>:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --><span class="type">NSString</span><!-- /a --><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/appToken //apple_ref/occ/data/Lookback/appToken //apple_ref/occ/data/appToken //apple_ref/occ/clconst/Lookback/appToken " machineGenerated="true" --><span class="var">appToken</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start -->+ (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<a machinegenerated="true" href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/instm/Lookback/setupWithAppToken //apple_ref/occ/clm/Lookback/setupWithAppToken" target="_top"><span class="function">setupWithAppToken</span></a>:(<!-- a logicalPath="//apple_ref/occ/cl/NSString //apple_ref/occ/tdef/NSString //apple_ref/occ/tag/NSString //apple_ref/occ/struct/NSString //apple_ref/occ/intf/NSString //apple_ref/doc/anysymbol/NSString" machineGenerated="true" --><span class="type">NSString</span><!-- /a --><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/teamToken //apple_ref/occ/data/Lookback/teamToken //apple_ref/occ/data/teamToken //apple_ref/occ/clconst/Lookback/teamToken " machineGenerated="true" --><span class="var">teamToken</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Parameters</font></h5>
 <div class="param_indent">
 <dl>
 <dt>
-<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/Lookback/setupWithAppToken:/appToken;   name=setupWithAppToken:::appToken -->
-<a name="//apple_ref/doc/methodparam/Lookback/setupWithAppToken:/appToken"></a>
-<code>appToken</code>
+<!-- headerDoc=methodparam;  uid=//apple_ref/doc/methodparam/Lookback/setupWithAppToken:/teamToken;   name=setupWithAppToken:::teamToken -->
+<a name="//apple_ref/doc/methodparam/Lookback/setupWithAppToken:/teamToken"></a>
+<code>teamToken</code>
 </dt>
-<dd><p>A string identifying your app, received from your app settings at http://lookback.io</p></dd>
+<dd><p>A string identifying your team, received from your team settings at http://lookback.io</p></dd>
 </dl>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start --><p>In your applicationDidFinishLaunching: or similar, call this method to prepare
-Lookback for use, using the App Token from your integration guide at lookback.io.
+Lookback for use, using the Team Token from your integration guide at lookback.io. You can call
+this method again later to change the token.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=end --><!-- end discussion -->
 </p>
 <hr class="betweenAPIEntries">
@@ -442,7 +443,7 @@ Lookback for use, using the App Token from your integration guide at lookback.io
 </script><!-- end of footer --><hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
 <p class="hd_copyright">&copy; Lookback Inc. </p>
-<p class="hd_timestamp">Last Updated: April 06, 2015
+<p class="hd_timestamp">Last Updated: October 30, 2015
 </p>
 </div>
 </td>

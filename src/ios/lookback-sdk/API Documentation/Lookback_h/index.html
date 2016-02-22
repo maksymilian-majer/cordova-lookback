@@ -363,7 +363,8 @@ function disclosure_triangle(elt) {
 <div class="spec_sheet_info_box"><table cellspacing="0" class="specbox"><tr>
 <td scope="row"><b>Includes:</b></td>
 <td><div style="margin-bottom:1px"><div class="content_text">
-<!-- a logicalPath="//apple_ref/doc/header/Foundation.h" machineGenerated="true" -->&lt;Foundation/Foundation.h&gt;<!-- /a --><br><!-- a logicalPath="//apple_ref/doc/header/LookbackDeprecated.h" machineGenerated="true" -->&lt;Lookback/LookbackDeprecated.h&gt;<!-- /a --><br><!-- a logicalPath="//apple_ref/doc/header/LookbackRecordingOptions.h" machineGenerated="true" -->&lt;Lookback/LookbackRecordingOptions.h&gt;<!-- /a --><br><!-- a logicalPath="//apple_ref/doc/header/LookbackRecordingSession.h" machineGenerated="true" -->&lt;Lookback/LookbackRecordingSession.h&gt;<!-- /a --><br><a machinegenerated="true" href="../LookbackSettingsViewController_h/index.html#//apple_ref/doc/header/LookbackSettingsViewController.h" logicalPath="//apple_ref/doc/header/LookbackSettingsViewController.h" target="_top">&lt;Lookback/LookbackSettingsViewController.h&gt;</a><br><a machinegenerated="true" href="../LookbackRecordingViewController_h/index.html#//apple_ref/doc/header/LookbackRecordingViewController.h" logicalPath="//apple_ref/doc/header/LookbackRecordingViewController.h" target="_top">&lt;Lookback/LookbackRecordingViewController.h&gt;</a></div></div></td>
+<!-- a logicalPath="//apple_ref/doc/header/Foundation.h" machineGenerated="true" -->&lt;Foundation/Foundation.h&gt;<!-- /a --><br><a machinegenerated="true" href="../LookbackDeprecated_h/index.html#//apple_ref/doc/header/LookbackDeprecated.h" logicalPath="//apple_ref/doc/header/LookbackDeprecated.h" target="_top">&lt;Lookback/LookbackDeprecated.h&gt;</a><br><a machinegenerated="true" href="../LookbackRecordingOptions_h/index.html#//apple_ref/doc/header/LookbackRecordingOptions.h" logicalPath="//apple_ref/doc/header/LookbackRecordingOptions.h" target="_top">&lt;Lookback/LookbackRecordingOptions.h&gt;</a><br><a machinegenerated="true" href="../LookbackRecordingSession_h/index.html#//apple_ref/doc/header/LookbackRecordingSession.h" logicalPath="//apple_ref/doc/header/LookbackRecordingSession.h" target="_top">&lt;Lookback/LookbackRecordingSession.h&gt;</a><br><a machinegenerated="true" href="../LookbackSettingsViewController_h/index.html#//apple_ref/doc/header/LookbackSettingsViewController.h" logicalPath="//apple_ref/doc/header/LookbackSettingsViewController.h" target="_top">&lt;Lookback/LookbackSettingsViewController.h&gt;</a><br><a machinegenerated="true" href="../LookbackRecordingViewController_h/index.html#//apple_ref/doc/header/LookbackRecordingViewController.h" logicalPath="//apple_ref/doc/header/LookbackRecordingViewController.h" target="_top">&lt;Lookback/LookbackRecordingViewController.h&gt;</a><br><!-- a logicalPath="//apple_ref/doc/header/LookbackRecordingsTableViewController.h" machineGenerated="true" -->&lt;Lookback/LookbackRecordingsTableViewController.h&gt;<!-- /a -->
+</div></div></td>
 </tr></table></div>
 <h2>Introduction</h2>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/doc/header/Lookback.h;name=start --><p>Public interface for Lookback, the UX testing tool that records your screen
@@ -397,6 +398,8 @@ and camera and uploads it to http://lookback.io for further study.<!-- headerDoc
 <dt><tt><a href="index.html#//apple_ref/c/func/lookback" target="_top">+lookback</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/func/startRecordingWithOptions:" target="_top">+startRecordingWithOptions:</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/func/stopRecording" target="_top">+stopRecording</a></tt></dt>
 <dd></dd>
 </dl>
 <hr class="betweenAPIEntries">
@@ -504,15 +507,26 @@ a constructor.
 </p><hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/startRecordingWithOptions:;   name=startRecordingWithOptions: --><a name="//apple_ref/c/func/startRecordingWithOptions:"></a>
 <h3><a name="startRecordingWithOptions:">startRecordingWithOptions:</a></h3>
 <hr class="afterName"><div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/startRecordingWithOptions:;name=start -->- (<!-- a logicalPath="//apple_ref/occ/cl/LookbackRecordingSession //apple_ref/occ/tdef/LookbackRecordingSession //apple_ref/occ/tag/LookbackRecordingSession //apple_ref/occ/struct/LookbackRecordingSession //apple_ref/occ/intf/LookbackRecordingSession //apple_ref/doc/anysymbol/LookbackRecordingSession" machineGenerated="true" --><span class="type">LookbackRecordingSession</span><!-- /a --><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/instm/startRecordingWithOptions //apple_ref/occ/clm/startRecordingWithOptions //apple_ref/occ/intfcm/startRecordingWithOptions //apple_ref/occ/intfm/startRecordingWithOptions //apple_ref/occ/func/startRecordingWithOptions //apple_ref/occ/ftmplt/startRecordingWithOptions //apple_ref/occ/defn/startRecordingWithOptions //apple_ref/occ/macro/startRecordingWithOptions //apple_ref/doc/anysymbol/startRecordingWithOptions" machineGenerated="true" --><span class="function">startRecordingWithOptions</span><!-- /a -->:(<!-- a logicalPath="//apple_ref/occ/cl/LookbackRecordingOptions //apple_ref/occ/tdef/LookbackRecordingOptions //apple_ref/occ/tag/LookbackRecordingOptions //apple_ref/occ/struct/LookbackRecordingOptions //apple_ref/occ/intf/LookbackRecordingOptions //apple_ref/doc/anysymbol/LookbackRecordingOptions" machineGenerated="true" --><span class="type">LookbackRecordingOptions</span><!-- /a --><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/options //apple_ref/occ/data/options //apple_ref/occ/clconst/options " machineGenerated="true" --><span class="var">options</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/startRecordingWithOptions:;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/startRecordingWithOptions:;name=start -->- (<a machinegenerated="true" href="../LookbackRecordingSession_h/Classes/LookbackRecordingSession/index.html#//apple_ref/occ/cl/LookbackRecordingSession" logicalPath="//apple_ref/occ/cl/LookbackRecordingSession" target="_top"><span class="type">LookbackRecordingSession</span></a><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/instm/startRecordingWithOptions //apple_ref/occ/clm/startRecordingWithOptions //apple_ref/occ/intfcm/startRecordingWithOptions //apple_ref/occ/intfm/startRecordingWithOptions //apple_ref/occ/func/startRecordingWithOptions //apple_ref/occ/ftmplt/startRecordingWithOptions //apple_ref/occ/defn/startRecordingWithOptions //apple_ref/occ/macro/startRecordingWithOptions //apple_ref/doc/anysymbol/startRecordingWithOptions" machineGenerated="true" --><span class="function">startRecordingWithOptions</span><!-- /a -->:(<a machinegenerated="true" href="../LookbackRecordingOptions_h/Classes/LookbackRecordingOptions/index.html#//apple_ref/occ/cl/LookbackRecordingOptions" logicalPath="//apple_ref/occ/cl/LookbackRecordingOptions" target="_top"><span class="type">LookbackRecordingOptions</span></a><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/options //apple_ref/occ/data/options //apple_ref/occ/clconst/options " machineGenerated="true" --><span class="var">options</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/startRecordingWithOptions:;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/startRecordingWithOptions:;name=start --><p>Start recording with the provided options, overriding the default options. Note that
 recording might not start immediately: user may need to accept privacy policy first. <!-- headerDoc=discussion;uid=//apple_ref/c/func/startRecordingWithOptions:;name=end --><!-- end discussion -->
+</p><hr class="betweenAPIEntries"><!-- headerDoc=func;  uid=//apple_ref/c/func/stopRecording;   name=stopRecording --><a name="//apple_ref/c/func/stopRecording"></a>
+<h3><a name="stopRecording">stopRecording</a></h3>
+<hr class="afterName"><div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/func/stopRecording;name=start -->- (<!-- a logicalPath="//apple_ref/occ/cl/void //apple_ref/occ/tdef/void //apple_ref/occ/tag/void //apple_ref/occ/struct/void //apple_ref/occ/intf/void //apple_ref/doc/anysymbol/void" machineGenerated="true" --><span class="type">void</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/stopRecording //apple_ref/occ/data/stopRecording //apple_ref/occ/clconst/stopRecording " machineGenerated="true" --><span class="var">stopRecording</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/func/stopRecording;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/func/stopRecording;name=start --><p>Stop recording <!-- headerDoc=discussion;uid=//apple_ref/c/func/stopRecording;name=end --><!-- end discussion -->
 </p><hr class="betweenSections"><a name="HeaderDoc_props"></a>
 <h2 class="h2tight">Properties</h2>
 </pre>
 <dl>
+<dt><tt><a href="index.html#//apple_ref/c/instp/countOfRecordingsPendingPreview" target="_top">countOfRecordingsPendingPreview</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/instp/countOfRecordingsPendingUpload" target="_top">countOfRecordingsPendingUpload</a></tt></dt>
+<dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/instp/currentRecordingSession" target="_top">currentRecordingSession</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/instp/enabled" target="_top">enabled</a></tt></dt>
@@ -522,6 +536,8 @@ recording might not start immediately: user may need to accept privacy policy fi
 <dt><tt><a href="index.html#//apple_ref/c/instp/feedbackBubbleForegroundColor" target="_top">feedbackBubbleForegroundColor</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/instp/feedbackBubbleIcon" target="_top">feedbackBubbleIcon</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/instp/feedbackBubbleInitialPosition" target="_top">feedbackBubbleInitialPosition</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/instp/feedbackBubbleVisible" target="_top">feedbackBubbleVisible</a></tt></dt>
 <dd></dd>
@@ -537,13 +553,47 @@ recording might not start immediately: user may need to accept privacy policy fi
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/c/instp/shakeToRecord" target="_top">shakeToRecord</a></tt></dt>
 <dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/instp/showIntroductionDialogs" target="_top">showIntroductionDialogs</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/c/instp/uploadProgress" target="_top">uploadProgress</a></tt></dt>
+<dd></dd>
 </dl>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/c/instp/countOfRecordingsPendingPreview;   name=countOfRecordingsPendingPreview --><a name="//apple_ref/c/instp/countOfRecordingsPendingPreview"></a>
+<h3><a name="countOfRecordingsPendingPreview">countOfRecordingsPendingPreview</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/countOfRecordingsPendingPreview;name=start -->@property(<span class="param">readonly</span>) <!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/intf/NSInteger //apple_ref/doc/anysymbol/NSInteger" machineGenerated="true" --><span class="type">NSInteger</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/countOfRecordingsPendingPreview //apple_ref/occ/data/countOfRecordingsPendingPreview //apple_ref/occ/clconst/countOfRecordingsPendingPreview " machineGenerated="true" --><span class="var">countOfRecordingsPendingPreview</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/countOfRecordingsPendingPreview;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/countOfRecordingsPendingPreview;name=start --><p>How many recordings are waiting to be previewed? This is the number shown as a red
+badge in the `LookbackRecordingViewController`. If your app does not allow access to
+the `LookbackRecordingViewController`, you should manually display this number somewhere
+in your app and allow the user to view `LookbackRecordingsTableViewController`, in order
+to finish previewing recent recordings. <!-- headerDoc=discussion;uid=//apple_ref/c/instp/countOfRecordingsPendingPreview;name=end --><!-- end discussion -->
+</p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/c/instp/countOfRecordingsPendingUpload;   name=countOfRecordingsPendingUpload --><a name="//apple_ref/c/instp/countOfRecordingsPendingUpload"></a>
+<h3><a name="countOfRecordingsPendingUpload">countOfRecordingsPendingUpload</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/countOfRecordingsPendingUpload;name=start -->@property(<span class="param">readonly</span>) <!-- a logicalPath="//apple_ref/occ/cl/NSInteger //apple_ref/occ/tdef/NSInteger //apple_ref/occ/tag/NSInteger //apple_ref/occ/struct/NSInteger //apple_ref/occ/intf/NSInteger //apple_ref/doc/anysymbol/NSInteger" machineGenerated="true" --><span class="type">NSInteger</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/countOfRecordingsPendingUpload //apple_ref/occ/data/countOfRecordingsPendingUpload //apple_ref/occ/clconst/countOfRecordingsPendingUpload " machineGenerated="true" --><span class="var">countOfRecordingsPendingUpload</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/countOfRecordingsPendingUpload;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/countOfRecordingsPendingUpload;name=start --><p>How many recordings are currently uploading, or waiting to be uploaded? If your app
+does not allow access to the `LookbackRecordingViewController`, you should manually
+display this number in your app, and possibly allow the user to view
+`LookbackRecordingsTableViewController` to see the status of their uploads.
+</p>
+<p>KVO compliant.
+<!-- headerDoc=discussion;uid=//apple_ref/c/instp/countOfRecordingsPendingUpload;name=end --><!-- end discussion -->
+</p>
 <hr class="betweenAPIEntries">
 <!-- headerDoc=instp;  uid=//apple_ref/c/instp/currentRecordingSession;   name=currentRecordingSession --><a name="//apple_ref/c/instp/currentRecordingSession"></a>
 <h3><a name="currentRecordingSession">currentRecordingSession</a></h3>
 <hr class="afterName">
 <div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/currentRecordingSession;name=start -->@property(<span class="param">readonly</span>) <!-- a logicalPath="//apple_ref/occ/cl/LookbackRecordingSession //apple_ref/occ/tdef/LookbackRecordingSession //apple_ref/occ/tag/LookbackRecordingSession //apple_ref/occ/struct/LookbackRecordingSession //apple_ref/occ/intf/LookbackRecordingSession //apple_ref/doc/anysymbol/LookbackRecordingSession" machineGenerated="true" --><span class="type">LookbackRecordingSession</span><!-- /a --> <span class="type">*</span><!-- a logicalPath="//apple_ref/occ/econst/currentRecordingSession //apple_ref/occ/data/currentRecordingSession //apple_ref/occ/clconst/currentRecordingSession " machineGenerated="true" --><span class="var">currentRecordingSession</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/currentRecordingSession;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/currentRecordingSession;name=start -->@property(<span class="param">readonly</span>) <a machinegenerated="true" href="../LookbackRecordingSession_h/Classes/LookbackRecordingSession/index.html#//apple_ref/occ/cl/LookbackRecordingSession" logicalPath="//apple_ref/occ/cl/LookbackRecordingSession" target="_top"><span class="type">LookbackRecordingSession</span></a> <span class="type">*</span><!-- a logicalPath="//apple_ref/occ/econst/currentRecordingSession //apple_ref/occ/data/currentRecordingSession //apple_ref/occ/clconst/currentRecordingSession " machineGenerated="true" --><span class="var">currentRecordingSession</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/currentRecordingSession;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/currentRecordingSession;name=start --><p>Retrieve the current recording, if one is ongoing. This is nil if recording is off. <!-- headerDoc=discussion;uid=//apple_ref/c/instp/currentRecordingSession;name=end --><!-- end discussion -->
@@ -553,7 +603,7 @@ recording might not start immediately: user may need to accept privacy policy fi
 <h3><a name="enabled">enabled</a></h3>
 <hr class="afterName">
 <div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/enabled;name=start -->@property(<span class="param">nonatomic</span>) <!-- a logicalPath="//apple_ref/occ/cl/DEPRECATED_ATTRIBUTE //apple_ref/occ/tdef/DEPRECATED_ATTRIBUTE //apple_ref/occ/tag/DEPRECATED_ATTRIBUTE //apple_ref/occ/struct/DEPRECATED_ATTRIBUTE //apple_ref/occ/intf/DEPRECATED_ATTRIBUTE //apple_ref/doc/anysymbol/DEPRECATED_ATTRIBUTE" machineGenerated="true" --><span class="type">DEPRECATED_ATTRIBUTE</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/cl/BOOL //apple_ref/occ/tdef/BOOL //apple_ref/occ/tag/BOOL //apple_ref/occ/struct/BOOL //apple_ref/occ/intf/BOOL //apple_ref/doc/anysymbol/BOOL" machineGenerated="true" --><span class="type">BOOL</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/enabled //apple_ref/occ/data/enabled //apple_ref/occ/clconst/enabled " machineGenerated="true" --><span class="var">enabled</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/enabled;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/enabled;name=start -->@property(<span class="param">nonatomic</span>) <!-- a logicalPath="//apple_ref/occ/instm/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/clm/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/intfcm/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/intfm/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/func/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/ftmplt/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/defn/DEPRECATED_MSG_ATTRIBUTE //apple_ref/occ/macro/DEPRECATED_MSG_ATTRIBUTE //apple_ref/doc/anysymbol/DEPRECATED_MSG_ATTRIBUTE" machineGenerated="true" --><span class="function">DEPRECATED_MSG_ATTRIBUTE</span><!-- /a -->("<span class="string">Use</span> .<span class="string">recording</span> <span class="string">instead</span>") <!-- a logicalPath="//apple_ref/occ/cl/BOOL //apple_ref/occ/tdef/BOOL //apple_ref/occ/tag/BOOL //apple_ref/occ/struct/BOOL //apple_ref/occ/intf/BOOL //apple_ref/doc/anysymbol/BOOL" machineGenerated="true" --><span class="type">BOOL</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/enabled //apple_ref/occ/data/enabled //apple_ref/occ/clconst/enabled " machineGenerated="true" --><span class="var">enabled</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/enabled;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/enabled;name=start --><p>This property has been renamed to 'recording'.
@@ -599,6 +649,17 @@ foreground tint color. Override it with this property.
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/feedbackBubbleIcon;name=start --><p>You can override the icon of the feedback bubble. It will be tinted with foregroundColor. <!-- headerDoc=discussion;uid=//apple_ref/c/instp/feedbackBubbleIcon;name=end --><!-- end discussion -->
 </p>
 <hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/c/instp/feedbackBubbleInitialPosition;   name=feedbackBubbleInitialPosition --><a name="//apple_ref/c/instp/feedbackBubbleInitialPosition"></a>
+<h3><a name="feedbackBubbleInitialPosition">feedbackBubbleInitialPosition</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/feedbackBubbleInitialPosition;name=start -->@property(<span class="param">nonatomic</span>) <!-- a logicalPath="//apple_ref/occ/cl/CGPoint //apple_ref/occ/tdef/CGPoint //apple_ref/occ/tag/CGPoint //apple_ref/occ/struct/CGPoint //apple_ref/occ/intf/CGPoint //apple_ref/doc/anysymbol/CGPoint" machineGenerated="true" --><span class="type">CGPoint</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/feedbackBubbleInitialPosition //apple_ref/occ/data/feedbackBubbleInitialPosition //apple_ref/occ/clconst/feedbackBubbleInitialPosition " machineGenerated="true" --><span class="var">feedbackBubbleInitialPosition</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/feedbackBubbleInitialPosition;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/feedbackBubbleInitialPosition;name=start --><p>Where on the screen should the bubble appear? Use positive values as insets from top-left, or negative
+values for insets from bottom-right. <!-- headerDoc=discussion;uid=//apple_ref/c/instp/feedbackBubbleInitialPosition;name=end --><!-- end discussion -->
+</p>
+<hr class="betweenAPIEntries">
 <!-- headerDoc=instp;  uid=//apple_ref/c/instp/feedbackBubbleVisible;   name=feedbackBubbleVisible --><a name="//apple_ref/c/instp/feedbackBubbleVisible"></a>
 <h3><a name="feedbackBubbleVisible">feedbackBubbleVisible</a></h3>
 <hr class="afterName">
@@ -615,7 +676,7 @@ but you can set it to YES immediately on app start to default to it showing, e g
 <h3><a name="options">options</a></h3>
 <hr class="afterName">
 <div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/options;name=start -->@property(<span class="param">readonly</span>) <!-- a logicalPath="//apple_ref/occ/cl/LookbackDefaultRecordingOptions //apple_ref/occ/tdef/LookbackDefaultRecordingOptions //apple_ref/occ/tag/LookbackDefaultRecordingOptions //apple_ref/occ/struct/LookbackDefaultRecordingOptions //apple_ref/occ/intf/LookbackDefaultRecordingOptions //apple_ref/doc/anysymbol/LookbackDefaultRecordingOptions" machineGenerated="true" --><span class="type">LookbackDefaultRecordingOptions</span><!-- /a --> <span class="type">*</span><!-- a logicalPath="//apple_ref/occ/econst/options //apple_ref/occ/data/options //apple_ref/occ/clconst/options " machineGenerated="true" --><span class="var">options</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/options;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/options;name=start -->@property(<span class="param">readonly</span>) <a machinegenerated="true" href="../LookbackRecordingOptions_h/Classes/LookbackDefaultRecordingOptions/index.html#//apple_ref/occ/cl/LookbackDefaultRecordingOptions" logicalPath="//apple_ref/occ/cl/LookbackDefaultRecordingOptions" target="_top"><span class="type">LookbackDefaultRecordingOptions</span></a> <span class="type">*</span><!-- a logicalPath="//apple_ref/occ/econst/options //apple_ref/occ/data/options //apple_ref/occ/clconst/options " machineGenerated="true" --><span class="var">options</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/options;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/options;name=start --><p>Default recording options. These are stored in NSUserDefaults, and some can be overridden
@@ -685,6 +746,35 @@ either from pressing the feedback bubble or from setting this property to YES.
 show the LookbackRecordingViewController and let the user record. Default NO.
 <!-- headerDoc=discussion;uid=//apple_ref/c/instp/shakeToRecord;name=end --><!-- end discussion -->
 </p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/c/instp/showIntroductionDialogs;   name=showIntroductionDialogs --><a name="//apple_ref/c/instp/showIntroductionDialogs"></a>
+<h3><a name="showIntroductionDialogs">showIntroductionDialogs</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/showIntroductionDialogs;name=start -->@property(<span class="param">nonatomic</span>) <!-- a logicalPath="//apple_ref/occ/cl/BOOL //apple_ref/occ/tdef/BOOL //apple_ref/occ/tag/BOOL //apple_ref/occ/struct/BOOL //apple_ref/occ/intf/BOOL //apple_ref/doc/anysymbol/BOOL" machineGenerated="true" --><span class="type">BOOL</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/showIntroductionDialogs //apple_ref/occ/data/showIntroductionDialogs //apple_ref/occ/clconst/showIntroductionDialogs " machineGenerated="true" --><span class="var">showIntroductionDialogs</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/showIntroductionDialogs;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/showIntroductionDialogs;name=start --><p>If set to YES, Lookback will show introduction dialogs if applicable at the following occasions:
+</p>
+<p>* When the recorder is displayed, to solicit feedback from the user
+* When recording starts, with instructions on how to stop recording (if recording
+started by tapping the feedback bubble).
+* When the feedback bubble is dismissed, with instructions on how to show it again
+</p>
+<p>@default YES
+<!-- headerDoc=discussion;uid=//apple_ref/c/instp/showIntroductionDialogs;name=end --><!-- end discussion -->
+</p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/c/instp/uploadProgress;   name=uploadProgress --><a name="//apple_ref/c/instp/uploadProgress"></a>
+<h3><a name="uploadProgress">uploadProgress</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/c/instp/uploadProgress;name=start -->@property(<span class="param">readonly</span>) <!-- a logicalPath="//apple_ref/occ/cl/double //apple_ref/occ/tdef/double //apple_ref/occ/tag/double //apple_ref/occ/struct/double //apple_ref/occ/intf/double //apple_ref/doc/anysymbol/double" machineGenerated="true" --><span class="type">double</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/uploadProgress //apple_ref/occ/data/uploadProgress //apple_ref/occ/clconst/uploadProgress " machineGenerated="true" --><span class="var">uploadProgress</span><!-- /a -->;  <!-- headerDoc=declaration;uid=//apple_ref/c/instp/uploadProgress;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/c/instp/uploadProgress;name=start --><p>If countOfRecordingsPendingUpload is &gt; 0, this is a number between 0 and 1 for how
+far upload has progressed. <!-- headerDoc=discussion;uid=//apple_ref/c/instp/uploadProgress;name=end --><!-- end discussion -->
+</p>
 <hr class="betweenSections">
 <a name="HeaderDoc_pdefines"></a>
 <h2 class="h2tight">Macro Definitions</h2>
@@ -733,7 +823,7 @@ you thus avoid linker errors.
 </script><!-- end of footer --><hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
 <p class="hd_copyright">&copy; Lookback Inc. </p>
-<p class="hd_timestamp">Last Updated: April 06, 2015
+<p class="hd_timestamp">Last Updated: October 30, 2015
 </p>
 </div>
 </td>

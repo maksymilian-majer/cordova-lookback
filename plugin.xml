@@ -19,8 +19,8 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="io.lookback.sdk"
-      version="1.0.2">
+           id="cordova-plugin-lookback"
+      version="1.1.4">
 
     <engines>
         <engine name="cordova" version=">=3.0.0" />
@@ -58,6 +58,11 @@
         <framework src="MediaPlayer.framework" />
         <framework src="QuartzCore.framework" />
         <framework src="libz.dylib" />
-        
+        <framework src="CoreImage.framework" />
+        <framework src="ImageIO.framework" />
+        <framework src="MessageUI.framework" />
+        <framework src="MobileCoreServices.framework" />
+        <framework src="VideoToolbox.framework" />
+
     </platform>
 </plugin>
