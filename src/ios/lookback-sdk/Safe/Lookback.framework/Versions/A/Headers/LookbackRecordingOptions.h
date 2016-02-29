@@ -1,4 +1,5 @@
 #import <Foundation/Foundation.h>
+@class NSScreen;
 
 typedef NS_ENUM(NSInteger, LookbackTimeoutOption) {
 	LookbackTimeoutImmediately = 0,
@@ -24,25 +25,18 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 	Customize as you will, then start a recording with it.*/
 - (instancetype)init;
 
-/*! The NSTimeInterval/double key LookbackRecordingTimeoutOptionSettingsKey controls the timeout option when
-	the app becomes inactive. "Inactive" in this context means that the user exists the app, or locks the screen.
-	
-	* Using 0 will stop a recording as soon as the app becomes inactive.
-	* Using DBL_MAX will never terminate a recording when the app becomes inactive.
-	* Any value in between will timeout and end the recording after the app has been inactive for
-	  the specified duration.
- */
-@property(nonatomic) LookbackTimeoutOption timeout;
-/*! The LookbackAfterRecordingOption key LookbackAfterRecordingOptionSettingsKey controls the behavior of
-	Lookback when the user stops recording, or recording times out (see LookbackRecordingTimeoutSettingsKey).
-	* LookbackAfterRecordingReview will let the user manually review a recording after it's been stopped.
-	* LookbackAfterRecordingUpload will automatically upload without review.
-	* LookbackAfterTimeoutUploadAndStartNewRecording will automatically start uploading, but if it was stopped
-	  because of a timeout, it will also start a new recording the next time the app is brought to the foreground.
- */
-@property(nonatomic) LookbackAfterRecordingOption afterRecording;
+/*! @group Settings for recording video and audio */
+#pragma mark - Settings for recording video and audio
+
+/*! When doing a Lookback screen recording, should the user's face also be recorded through the device's front-facing camera? */
 @property(nonatomic) BOOL cameraEnabled;
+
+/*! When doing a Lookback screen recording, should the user's voice also be recorded through the device's microphone? */
 @property(nonatomic) BOOL microphoneEnabled;
+
+/*! Whether the user should be shown a preview image of their face at the bottom-right of the screen while recording, to make sure that they are holding their device correctly and are well-framed. */
+@property(nonatomic) BOOL showCameraPreviewWhileRecording;
+
 /*! Lookback automatically sets a screen recording framerate that is suitable for your
 	device. However, if your app is very performance intense, you might want to decrease
 	the framerate at which Lookback records to free up some CPU time for your app. This
@@ -72,8 +66,9 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 /*! Taking into account the performance of your iOS device and the framerateMultiplier, what framerate does Lookback recommend? */
 - (int)recommendedFramerateLimit;
 
-/*! Whether the user should be shown a preview image of their face at the bottom-right of the screen while recording, to make sure that they are holding their device correctly and are well-framed. */
-@property(nonatomic) BOOL showCameraPreviewWhileRecording;
+
+/*! @group Settings for recording metadata */
+#pragma mark - Settings for recording metadata
 
 /*! Identifier for the user who's currently using the app. You can filter on
     this property at lookback.io later. If your service has log in user names,
@@ -92,8 +87,45 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 	*/
 @property(nonatomic) BOOL automaticallyRecordViewControllerNames;
 
-/*! @group Callbacks
+
+/*! @group Lookback behavior related to recording */
+#pragma mark - Lookback behavior related to recording
+
+/*! afterRecording controls the behavior of Lookback when the user stops recording, or recording times out (@see timeout).
+	* LookbackAfterRecordingReview will let the user manually preview a recording after it's been stopped, and decide wheter to upload or discard it; give it a name; and so on.
+	* LookbackAfterRecordingUpload will automatically upload without preview.
+	* LookbackAfterTimeoutUploadAndStartNewRecording will automatically start uploading, but if it was stopped
+	  because of a timeout, it will also start a new recording the next time the app is brought to the foreground.
+	  This is basically the 'diary study' mode, where the user is always recorded.
+ */
+@property(nonatomic) LookbackAfterRecordingOption afterRecording;
+
+/*! Controls the timeout option when the app becomes inactive. "Inactive" in this context means that
+	the user exists the app, or locks the screen.
+	
+	* Using 0 will stop a recording as soon as the app becomes inactive.
+	* Using DBL_MAX will never terminate a recording when the app becomes inactive.
+	* Any value in between will timeout and end the recording after the app has been inactive for
+	  the specified duration.
+ */
+@property(nonatomic) LookbackTimeoutOption timeout;
+
+/*! If afterRecording is set to .Review, the user is prompted to view and name their recording before deciding
+	if it should be uploaded. In addition, they can also choose to save the recording into Drafts and decide later
+	what to do with it. Setting this option to NO disallows this option.
+	@default YES
 */
+@property(nonatomic) BOOL allowSavingPreviewsAsDrafts;
+
+/*! In addition, they can also choose to resume the recording, so that they may attach additional
+	content to it. Setting this option to NO disallows this option.
+	@default YES
+*/
+@property(nonatomic) BOOL allowResumeRecordingFromPreview;
+
+
+/*! @group Callbacks */
+#pragma mark - Callbacks
 
 /*! When a recording upload starts, its URL is determined. You can then attach this URL to a bug report or similar.
 
@@ -108,6 +140,50 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 */
 @property(nonatomic,copy) void(^onStartedUpload)(NSURL *destinationURL, NSDate *sessionStartedAt);
 
+
+#if TARGET_OS_MAC && !TARGET_OS_IPHONE
+
+/*! @group Mac APIs */
+#pragma mark - Mac APIs
+
+/*! The camera that Lookback will use whilst recording. This is the system defined name for available cameras that are available. An empty string means no camera selected
+	
+	Default value: @""
+*/
+@property(nonatomic) NSString *cameraName;
+
+/*! The microphone that Lookback will use whilst recording. This is the system defined name for available microphones that are available. An empty string means no microphone selected
+	
+	Default value: @""
+*/
+@property(nonatomic) NSString *microphoneName;
+
+/*! The ID of the screen that Lookback will record. Retrieve the ID of a screen
+	by using [screen.deviceDescription[@"NSScreenNumber"] intValue].
+	
+	Default value: 0, which means the main screen.
+*/
+@property(nonatomic) uint32_t screenId;
+
+/*! The rectangle of the screen area that Lookback will record.
+	
+	Default value: CGRectZero, which means record the whole screen.
+*/
+@property(nonatomic) CGRect screenCrop;
+
+/*! The pixel density of the screen that Lookback will use whilst recording. A one means standard pixel density.
+	
+	Default value: 1.0
+*/
+@property(nonatomic) float pixelDensity;
+
+/*! Whether we show the mouse clicks on the captured video
+	
+	Default value: NO
+*/
+@property(nonatomic) BOOL captureClicks;
+
+#endif
 @end
 
 /*! These are automatically saved to NSUserDefaults when modified. You may only use the instance [Lookback sharedLookback].options.*/

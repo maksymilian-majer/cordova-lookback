@@ -2,8 +2,11 @@
 #import <Lookback/LookbackDeprecated.h>
 #import <Lookback/LookbackRecordingOptions.h>
 #import <Lookback/LookbackRecordingSession.h>
+#if TARGET_OS_IPHONE
 #import <Lookback/LookbackSettingsViewController.h>
 #import <Lookback/LookbackRecordingViewController.h>
+#import <Lookback/LookbackRecordingsTableViewController.h>
+#endif
 
 /*! @header Lookback Public API
     Public interface for Lookback, the UX testing tool that records your screen
@@ -22,10 +25,11 @@
 @interface Lookback : NSObject
 
 /*! In your applicationDidFinishLaunching: or similar, call this method to prepare
-    Lookback for use, using the App Token from your integration guide at lookback.io.
-    @param appToken A string identifying your app, received from your app settings at http://lookback.io
+    Lookback for use, using the Team Token from your integration guide at lookback.io. You can call
+    this method again later to change the token.
+    @param teamToken A string identifying your team, received from your team settings at http://lookback.io
 */
-+ (void)setupWithAppToken:(NSString*)appToken;
++ (void)setupWithAppToken:(NSString*)teamToken;
 
 /*! Shared instance of Lookback to use from your code. You must call
     +[Lookback @link setupWithAppToken:@/link] before calling this method.
@@ -48,6 +52,9 @@
 /*! Equivalent to [lookback startRecordingWithOptions:[lookback options]]; */
 - (LookbackRecordingSession*)startRecording; // Uses default options
 
+/*! Stop recording */
+- (void)stopRecording;
+
 /*! Retrieve the current recording, if one is ongoing. This is nil if recording is off. */
 @property(readonly) LookbackRecordingSession *currentRecordingSession;
 
@@ -61,9 +68,29 @@
 	to pause).
  */
 @property(nonatomic,getter=isPaused) BOOL paused;
+
+/*! How many recordings are waiting to be previewed? This is the number shown as a red
+    badge in the `LookbackRecordingViewController`. If your app does not allow access to
+    the `LookbackRecordingViewController`, you should manually display this number somewhere
+    in your app and allow the user to view `LookbackRecordingsTableViewController`, in order
+    to finish previewing recent recordings. */
+@property(readonly) NSInteger countOfRecordingsPendingPreview;
+
+/*! How many recordings are currently uploading, or waiting to be uploaded? If your app
+    does not allow access to the `LookbackRecordingViewController`, you should manually
+    display this number in your app, and possibly allow the user to view
+    `LookbackRecordingsTableViewController` to see the status of their uploads.
+
+    KVO compliant.
+ */
+@property(readonly) NSInteger countOfRecordingsPendingUpload;
+
+/*! If countOfRecordingsPendingUpload is > 0, this is a number between 0 and 1 for how
+    far upload has progressed. */
+@property(readonly) double uploadProgress;
 @end
 
-
+#if TARGET_OS_IPHONE
 @interface Lookback (LookbackUI)
 
 /*! If enabled, shows the feedback bubble when you shake the device. Tapping this bubble will
@@ -88,6 +115,10 @@
 /*!	You can override the icon of the feedback bubble. It will be tinted with foregroundColor. */
 @property(nonatomic) UIImage *feedbackBubbleIcon;
 
+/*! Where on the screen should the bubble appear? Use positive values as insets from top-left, or negative
+    values for insets from bottom-right. */
+@property(nonatomic) CGPoint feedbackBubbleInitialPosition;
+
 
 /*!
 	Whether the built-in LookbackRecordingViewController is currently being shown,
@@ -96,8 +127,23 @@
 @property(nonatomic) BOOL recorderVisible;
 /*! The currently presented LookbackRecordingViewController. nil if recorderVisible is NO. */
 @property(nonatomic,readonly) LookbackRecordingViewController *presentedRecorder;
+
+
+/*!
+	If set to YES, Lookback will show introduction dialogs if applicable at the following occasions:
+	
+	 * When the recorder is displayed, to solicit feedback from the user
+	 * When recording starts, with instructions on how to stop recording (if recording
+	   started by tapping the feedback bubble).
+	 * When the feedback bubble is dismissed, with instructions on how to show it again
+	
+	@default YES
+*/
+@property(nonatomic) BOOL showIntroductionDialogs;
+
 @end
 
+#endif
 
 @interface Lookback (LookbackMetadata)
 
@@ -159,6 +205,7 @@
 
 #pragma mark UIKit extensions
 
+#if TARGET_OS_IPHONE
 /*!
  *  Lookback-specific extenions to UIView.
  */
@@ -188,13 +235,15 @@
 - (NSString*)lookbackIdentifier;
 @end
 
+#endif
 
 @interface Lookback (LookbackDeprecated)
 /*!
 	This property has been renamed to 'recording'.
 	@see setRecording:
 */
-@property(nonatomic) DEPRECATED_ATTRIBUTE BOOL enabled;
+@property(nonatomic) DEPRECATED_MSG_ATTRIBUTE("Use .recording instead") BOOL enabled;
+@property(nonatomic) DEPRECATED_MSG_ATTRIBUTE("Use .options.userIdentifier instead") NSString *userIdentifier;
 
 /*! Deprecated: use @link sharedLookback @/link instead. This is because Swift
 	disallows the use of a static method with the same name as the class that isn't
