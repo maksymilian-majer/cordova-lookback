@@ -22,7 +22,7 @@ Currently supported functions
 
 The most important pieces of functionality from the
 [full API](https://s3-eu-west-1.amazonaws.com/lookback-public/docs/ios/1.1.4/Lookback_h/Classes/Lookback/index.html#//apple_ref/occ/cl/Lookback)
-has been implimented.
+has been implemented.
 
 ### setupWithAppToken
 call this first, once, and after device ready.
