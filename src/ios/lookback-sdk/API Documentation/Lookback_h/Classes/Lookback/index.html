@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Lookback</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf8">
 <meta name="generator" content="HeaderDoc">
 <meta name="xcode-display" content="render">
 <link rel="stylesheet" type="text/css" href="css">
@@ -368,17 +368,22 @@ function disclosure_triangle(elt) {
 </tr>
 <tr>
 <td scope="row"><b>Declared In:</b></td>
-<td><div style="margin-bottom:1px"><div class="content_text"><a logicalpath="//apple_ref/doc/header/Lookback.h" target="_top" machinegenerated="true" href="../../index.html#//apple_ref/doc/header/Lookback.h">Lookback Public API</a></div></div></td>
+<td><div style="margin-bottom:1px"><div class="content_text"><a logicalpath="//apple_ref/doc/header/Lookback.h" target="_top" machinegenerated="true" href="../../index.html#//apple_ref/doc/header/Lookback.h">Lookback.h</a></div></div></td>
 </tr>
 </table></div>
 <h2>Introduction</h2>
-<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/Lookback;name=start -->
-<p>Lookback should be +[Lookback <a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">setupWithAppToken:</a>] before being used. After
-that, you can:
-* start recording using -[Lookback <!-- a logicalPath="//apple_ref/occ/cl/startRecording //apple_ref/occ/tdef/startRecording //apple_ref/occ/tag/startRecording //apple_ref/occ/struct/startRecording //apple_ref/occ/intf/startRecording //apple_ref/occ/econst/startRecording //apple_ref/occ/data/startRecording //apple_ref/occ/clconst/startRecording //apple_ref/occ/instm/startRecording //apple_ref/occ/clm/startRecording //apple_ref/occ/intfcm/startRecording //apple_ref/occ/intfm/startRecording //apple_ref/occ/func/startRecording //apple_ref/occ/ftmplt/startRecording //apple_ref/occ/defn/startRecording //apple_ref/occ/macro/startRecording //apple_ref/doc/com/intfm/startRecording //apple_ref/doc/anysymbol/startRecording" -->startRecording<!-- /a -->] at any time,
-* present <a href="../../../LookbackRecordingViewController_h/Classes/LookbackRecordingViewController/index.html#//apple_ref/occ/cl/LookbackRecordingViewController" logicalPath="//apple_ref/occ/cl/LookbackRecordingViewController" target="_top">LookbackRecordingViewController</a> to let the user do so, or
-* set -[Lookback <a href="../../index.html#//apple_ref/c/instp/shakeToRecord" logicalPath="//apple_ref/c/instp/shakeToRecord" target="_top">shakeToRecord</a>] to YES to display a recording UI
-whenever you shake your device.<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/Lookback;name=end --><!-- end discussion -->
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/Lookback;name=start --><p>API for Lookback recording &amp; configuration.
+</p>
+<p>Must be configured with an app token via +[Lookback <a href="index.html#//apple_ref/occ/clm/Lookback/setupWithAppToken:" logicalPath="//apple_ref/occ/clm/Lookback/setupWithAppToken:" target="_top">setupWithAppToken:</a>] before being used.
+Once configured, you can:
+</p>
+<p>- start recording using -[Lookback <a href="../../Categories/Lookback_LookbackRecording_/index.html#//apple_ref/occ/instm/Lookback(LookbackRecording)/startRecording" logicalPath="//apple_ref/occ/instm/Lookback(LookbackRecording)/startRecording" target="_top">startRecording</a>] at any time
+</p>
+<p>- present <a href="../../../LookbackRecordingViewController_h/Classes/LookbackRecordingViewController/index.html#//apple_ref/occ/cl/LookbackRecordingViewController" logicalPath="//apple_ref/occ/cl/LookbackRecordingViewController" target="_top">LookbackRecordingViewController</a>  to let the user do start or manage recordings
+</p>
+<p>- configure -[Lookback <a href="../../Categories/Lookback_LookbackUI_/index.html#//apple_ref/occ/instp/Lookback(LookbackUI)/shakeToRecord" logicalPath="//apple_ref/occ/instp/Lookback(LookbackUI)/shakeToRecord" target="_top">shakeToRecord</a>] to display a recording UI
+whenever you shake your device (if set to <code>YES</code>).
+<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/Lookback;name=end --><!-- end discussion -->
 </p>
 <hr class="afterClassOrHeaderInfo">
 <br><a name="HeaderDoc_methods"></a>
@@ -408,7 +413,9 @@ whenever you shake your device.<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/
 </dl>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
-<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start --><p>In your applicationDidFinishLaunching: or similar, call this method to prepare
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=start --><p>Mandatory setup method which configures Lookback for your application.
+</p>
+<p>In your applicationDidFinishLaunching: or similar, call this method to prepare
 Lookback for use, using the Team Token from your integration guide at lookback.io. You can call
 this method again later to change the token.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/setupWithAppToken:;name=end --><!-- end discussion -->
@@ -418,7 +425,7 @@ this method again later to change the token.
 <h3><a name="sharedLookback">sharedLookback</a></h3>
 <hr class="afterName">
 <div class="declaration_indent">
-<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=start -->+ (<a machinegenerated="true" href="index.html#//apple_ref/occ/cl/Lookback" logicalPath="//apple_ref/occ/cl/Lookback" target="_top"><span class="type">Lookback</span></a><span class="type">*</span>)<!-- a logicalPath="//apple_ref/occ/econst/sharedLookback //apple_ref/occ/data/Lookback/sharedLookback //apple_ref/occ/data/sharedLookback //apple_ref/occ/clconst/Lookback/sharedLookback " machineGenerated="true" --><span class="var">sharedLookback</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=end --></pre>
+<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=start -->+ (<!-- a logicalPath="//apple_ref/occ/cl/instancetype //apple_ref/occ/tdef/instancetype //apple_ref/occ/tag/instancetype //apple_ref/occ/struct/instancetype //apple_ref/occ/intf/instancetype //apple_ref/doc/anysymbol/instancetype" machineGenerated="true" --><span class="type">instancetype</span><!-- /a -->)<!-- a logicalPath="//apple_ref/occ/econst/sharedLookback //apple_ref/occ/data/Lookback/sharedLookback //apple_ref/occ/data/sharedLookback //apple_ref/occ/clconst/Lookback/sharedLookback " machineGenerated="true" --><span class="var">sharedLookback</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=end --></pre>
 </div>
 <h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/clm/Lookback/sharedLookback;name=start --><p>Shared instance of Lookback to use from your code. You must call
@@ -443,7 +450,7 @@ this method again later to change the token.
 </script><!-- end of footer --><hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
 <p class="hd_copyright">&copy; Lookback Inc. </p>
-<p class="hd_timestamp">Last Updated: October 30, 2015
+<p class="hd_timestamp">Last Updated: April 26, 2016
 </p>
 </div>
 </td>

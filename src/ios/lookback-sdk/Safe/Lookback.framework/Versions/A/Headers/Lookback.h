@@ -8,23 +8,31 @@
 #import <Lookback/LookbackRecordingsTableViewController.h>
 #endif
 
-/*! @header Lookback Public API
+/*! @header Lookback.h
+ 
+    @abstract
     Public interface for Lookback, the UX testing tool that records your screen
     and camera and uploads it to http://lookback.io for further study.
 */
 
-/*! @class Lookback
-
-    Lookback should be +[Lookback @link setupWithAppToken: @/link] before being used. After
-    that, you can:
-	* start recording using -[Lookback @link startRecording @/link] at any time,
-	* present @link LookbackRecordingViewController @/link to let the user do so, or
-    * set -[Lookback @link shakeToRecord @/link] to YES to display a recording UI
-	  whenever you shake your device.
+/*!
+    API for Lookback recording & configuration.
+ 
+    Must be configured with an app token via +[Lookback @link setupWithAppToken: @/link] before being used.
+    Once configured, you can:
+ 
+	- start recording using -[Lookback @link startRecording @/link] at any time
+ 
+	- present @link LookbackRecordingViewController @/link  to let the user do start or manage recordings
+ 
+    - configure -[Lookback @link shakeToRecord @/link] to display a recording UI
+	  whenever you shake your device (if set to <code>YES</code>).
 */
 @interface Lookback : NSObject
 
-/*! In your applicationDidFinishLaunching: or similar, call this method to prepare
+/*! Mandatory setup method which configures Lookback for your application.
+ 
+    In your applicationDidFinishLaunching: or similar, call this method to prepare
     Lookback for use, using the Team Token from your integration guide at lookback.io. You can call
     this method again later to change the token.
     @param teamToken A string identifying your team, received from your team settings at http://lookback.io
@@ -34,23 +42,41 @@
 /*! Shared instance of Lookback to use from your code. You must call
     +[Lookback @link setupWithAppToken:@/link] before calling this method.
  */
-+ (Lookback*)sharedLookback;
++ (instancetype)sharedLookback;
 @end
 
 
+/*!
+ Recording API.
+ */
 @interface Lookback (LookbackRecording)
+
 /*! Whether Lookback is set to currently record. Setting this to YES is equivalent to calling
 	-[Lookback startRecording], and setting it to NO is equivalent to calling
 	[[[Lookback sharedLookback] currentRecordingSession] stopRecording];
+    
+    KVO compliant √
  */
 @property(nonatomic,getter=isRecording) BOOL recording;
 
-/*! Start recording with the provided options, overriding the default options. Note that
-	recording might not start immediately: user may need to accept privacy policy first. */
+/*! Start recording with the provided options, overriding the default options. 
+ 
+    @note 
+    The recording might not start immediately if the user hasn't accepted the privacy policy yet.
+ 
+    @return A new recording session, configured with the given <code>options</code>.
+ */
 - (LookbackRecordingSession*)startRecordingWithOptions:(LookbackRecordingOptions*)options;
 
-/*! Equivalent to [lookback startRecordingWithOptions:[lookback options]]; */
-- (LookbackRecordingSession*)startRecording; // Uses default options
+/*! 
+ Start a recording session with the default recording options.
+ 
+ Equivalent to:
+ 
+    [[Lookback sharedLookback] startRecordingWithOptions:[[Lookback sharedLookback] options]];
+ 
+ */
+- (LookbackRecordingSession*)startRecording;
 
 /*! Stop recording */
 - (void)stopRecording;
@@ -81,7 +107,7 @@
     display this number in your app, and possibly allow the user to view
     `LookbackRecordingsTableViewController` to see the status of their uploads.
 
-    KVO compliant.
+    KVO compliant √
  */
 @property(readonly) NSInteger countOfRecordingsPendingUpload;
 
@@ -91,6 +117,8 @@
 @end
 
 #if TARGET_OS_IPHONE
+
+/*! Lookback user interface API. */
 @interface Lookback (LookbackUI)
 
 /*! If enabled, shows the feedback bubble when you shake the device. Tapping this bubble will
@@ -100,6 +128,8 @@
 
 /*! Whether the feedback bubble (from "shakeToRecord") is currently shown. Defaults to NO,
 	but you can set it to YES immediately on app start to default to it showing, e g.
+ 
+    KVO compliant √
 */
 @property(nonatomic) BOOL feedbackBubbleVisible;
 
@@ -132,10 +162,10 @@
 /*!
 	If set to YES, Lookback will show introduction dialogs if applicable at the following occasions:
 	
-	 * When the recorder is displayed, to solicit feedback from the user
-	 * When recording starts, with instructions on how to stop recording (if recording
+	-  When the recorder is displayed, to solicit feedback from the user
+	-  When recording starts, with instructions on how to stop recording (if recording
 	   started by tapping the feedback bubble).
-	 * When the feedback bubble is dismissed, with instructions on how to show it again
+	-  When the feedback bubble is dismissed, with instructions on how to show it again
 	
 	@default YES
 */
@@ -145,6 +175,7 @@
 
 #endif
 
+/*! View tracing API. */
 @interface Lookback (LookbackMetadata)
 
 /*! If you are not using view controllers, or if automaticallyRecordViewControllerNames is NO,
@@ -181,6 +212,7 @@
 @end
 
 
+/*! Debugging API. */
 @interface Lookback (Debugging)
 @property(nonatomic,readonly) NSString *appToken;
 @end
@@ -237,7 +269,9 @@
 
 #endif
 
+/*! Deprecated methods*/
 @interface Lookback (LookbackDeprecated)
+
 /*!
 	This property has been renamed to 'recording'.
 	@see setRecording:
@@ -245,7 +279,8 @@
 @property(nonatomic) DEPRECATED_MSG_ATTRIBUTE("Use .recording instead") BOOL enabled;
 @property(nonatomic) DEPRECATED_MSG_ATTRIBUTE("Use .options.userIdentifier instead") NSString *userIdentifier;
 
-/*! Deprecated: use @link sharedLookback @/link instead. This is because Swift
+/*! @deprecated
+    Use @link sharedLookback @/link instead. This is because Swift
 	disallows the use of a static method with the same name as the class that isn't
 	a constructor.
  */

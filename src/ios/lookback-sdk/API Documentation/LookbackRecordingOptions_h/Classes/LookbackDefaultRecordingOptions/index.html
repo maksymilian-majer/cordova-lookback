@@ -371,8 +371,15 @@ function disclosure_triangle(elt) {
 </tr>
 </table></div>
 <h2>Introduction</h2>
-<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackDefaultRecordingOptions;name=start --><p>These are automatically saved to NSUserDefaults when modified. You may only use the instance [Lookback sharedLookback].options.<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackDefaultRecordingOptions;name=end --><!-- end discussion -->
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackDefaultRecordingOptions;name=start --><p>Singleton which persists default recording options to @c NSUserDefaults.
 </p>
+<p>Change properties on this object to modify the default values populated in new @c LookbackRecordingOptions objects.
+</p>
+<p><b>Note:</b><br></p>
+<div class="note_indent"><p>These are automatically saved to NSUserDefaults when modified. You may only use the instance 
+<code>[Lookback sharedLookback].options</code>.
+</p></div>
+<!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackDefaultRecordingOptions;name=end --><!-- end discussion -->
 <p class="gapBeforeFooter">&nbsp;</p>
 <!-- start of footer -->
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script><script type="text/javascript">
@@ -391,7 +398,7 @@ function disclosure_triangle(elt) {
 </script><!-- end of footer --><hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
 <p class="hd_copyright">&copy; Lookback Inc. </p>
-<p class="hd_timestamp">Last Updated: October 30, 2015
+<p class="hd_timestamp">Last Updated: April 26, 2016
 </p>
 </div>
 </td>

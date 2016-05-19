@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-lookback",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "cordova_name": "Lookback",
   "description": "Cordova plugin for lookback.io",
   "repo": "git@github.com:lookback/cordova-lookback.git",

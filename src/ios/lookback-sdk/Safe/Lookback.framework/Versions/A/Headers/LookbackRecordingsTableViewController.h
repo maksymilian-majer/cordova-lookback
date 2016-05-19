@@ -1,13 +1,17 @@
 #import <UIKit/UIKit.h>
 
+/*! @header Lookback Recordings Table
+    UI for displaying the progress of uploads, and listing recent recordings.
+ */
+
 /*!
     @class LookbackRecordingsTableViewController
     @abstract See the upload status of recent recordings in a table view.
  
     The table view shows all recordings that are:
-        * Pending to be reviewed. Tapping them will allow you to review them now.
-        * Currently uploading recordings.
-        * Recently completed uploads. Tapping them will take you to the Lookback
+        - Pending to be reviewed. Tapping them will allow you to review them now.
+        - Currently uploading recordings.
+        - Recently completed uploads. Tapping them will take you to the Lookback
           web site to view the recording, if you have permissions to do so.
  
     See `-[Lookback countOfRecordingsPendingPreview]` and `-[Lookback

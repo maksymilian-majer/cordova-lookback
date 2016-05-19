@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6bb70d6-f87c-4021-a58a-227975198a0b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Lookback" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/GFSettingsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/Lookback.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackDeprecated.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackRecordingOptions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackRecordingSession.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackRecordingViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackRecordingsTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Headers/LookbackSettingsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Lookback" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-bubble@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-clear@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-clear@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-instruction-shake@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-instruction-stop@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lb-instruction-use@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lookback-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lookback-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/A/Resources/lookback-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Versions/Current" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/teamChooser.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/teamChooser.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackAnywhere.storyboardc/teamChooser.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/bubbleNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/debugSettings.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/debugSettings.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/debugSettings.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/listOfExperiences.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/listOfExperiences.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/listOfExperiences.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/livePlayer.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/livePlayer.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/livePlayer.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/loginVC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/loginVC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/loginVC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/privacyPolicyDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/recordingNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/recordingNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/recordingNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/review.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/review.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/review.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/settingsRoot.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/settingsRoot.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/settingsRoot.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/shakeNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/shakeNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/shakeNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-bubble@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-clear@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-clear@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-instruction-shake@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-instruction-stop@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lb-instruction-use@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lookback-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lookback-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Lookback-Resources/Lookback.bundle/lookback-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Headers" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Lookback" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Resources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/GFSettingsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/Lookback.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackDeprecated.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackRecordingOptions.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackRecordingSession.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackRecordingViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackRecordingsTableViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Headers/LookbackSettingsViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Lookback" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UINavigationController-sdw-H4-xn0.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/UITableViewController-iE3-45-5D3.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/iE3-45-5D3-view-60O-JC-Ng1.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/nXc-o3-Th6-view-fTd-rR-ahR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackAnywhere.storyboardc/teamChooser.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/0YY-kg-iyQ-view-VtV-0a-btL.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7jR-kG-bhW-view-Fhl-8U-M2z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/7qg-Ps-pqU-view-h9t-Zo-d4i.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/ART-FU-NzR-view-gxX-9g-Btx.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Fau-2Z-ZkI-view-FGI-vu-87j.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/GBi-57-DTt-view-uDU-lv-g5m.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/IWa-i4-JYg-view-5MY-jq-QbQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Info-8.0+.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MR0-HX-B2b-view-nRK-hP-4X4.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/MUd-mh-cNP-view-3dG-LG-hke.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/P8M-7N-g4U-view-xta-Bl-8KQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-REW-6h-sEH.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UINavigationController-ufd-EE-1wf.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-0YY-kg-iyQ.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-P8M-7N-g4U.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-c20-IF-LQm.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-esT-LG-VLF.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UITableViewController-oKP-Ak-4s5.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-7jR-kG-bhW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-ART-FU-NzR.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-Fau-2Z-ZkI.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-wdA-Ff-Ezb.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/UIViewController-zzU-71-alX.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/URT-G0-hm5-view-5r4-kR-pBS.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bRe-SQ-B5B-view-EW4-aA-4Kq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/bubbleNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/c20-IF-LQm-view-q6j-Ir-s2Z.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dD1-JU-vVb-view-54p-o9-x7K.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/debugSettings.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/dfM-TG-nnv-view-8mO-3Y-iFe.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/esT-LG-VLF-view-tYo-7j-rdW.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/inc-vy-QhM-view-8mp-yA-Sqq.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/lSd-dX-pzd-view-cCu-4H-L4t.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/listOfExperiences.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/livePlayer.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/loginVC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/oKP-Ak-4s5-view-hOM-gf-Ujs.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/privacyPolicyDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/recordingNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/review.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/settingsRoot.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/shakeNuxDialog.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/wdA-Ff-Ezb-view-lx7-x8-QBC.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects-8.0+.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/objects.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/LookbackUI.storyboardc/zzU-71-alX-view-JSc-Jk-lZ2.nib/runtime.nib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-bubble@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-clear@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-clear@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-instruction-shake@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-instruction-stop@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lb-instruction-use@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lookback-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lookback-logo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/A/Resources/lookback-logo@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Versions/Current" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.xml" afterPath="$PROJECT_DIR$/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackDeprecated_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackDeprecated_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackDefaultRecordingOptions/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackDefaultRecordingOptions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackRecordingOptions/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackRecordingOptions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackRecordingOptions/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/Classes/LookbackRecordingOptions/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingOptions_h/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingSession_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingSession_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingSession_h/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingSession_h/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingViewController_h/Classes/LookbackRecordingViewController/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingViewController_h/Classes/LookbackRecordingViewController/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingViewController_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackRecordingViewController_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackSettingsViewController_h/Classes/LookbackSettingsViewController/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackSettingsViewController_h/Classes/LookbackSettingsViewController/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackSettingsViewController_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/LookbackSettingsViewController_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIViewController_LookbackViewIdentifier_/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIViewController_LookbackViewIdentifier_/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIViewController_LookbackViewIdentifier_/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIViewController_LookbackViewIdentifier_/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIView_LookbackConcealing_/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIView_LookbackConcealing_/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIView_LookbackConcealing_/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Categories/UIView_LookbackConcealing_/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Classes/Lookback/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Classes/Lookback/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Classes/Lookback/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/Classes/Lookback/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/toc.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/toc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/index.html" afterPath="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/index.html" />
+    </list>
+    <ignored path="cordova-lookback.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cordova-lookback" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Lookback.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/Lookback.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="275">
+                <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lookback.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Headers/Lookback.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lookback.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Headers/Lookback.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/plugin.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cordova-lookback" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lookback-sdk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v5.11.0/bin/node" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ios/lookback-sdk" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6bb70d6-f87c-4021-a58a-227975198a0b" name="Default" comment="" />
+      <created>1463642443771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1463642443771</updated>
+      <workItem from="1463642445372" duration="3453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3453000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295053" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295053" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/HD/Lookback.framework/Headers/Lookback.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/Safe/Lookback.framework/Headers/Lookback.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="275">
+            <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation1/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation1/Lookback_h/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ios/lookback-sdk/API Documentation/Lookback_h/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/Lookback.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

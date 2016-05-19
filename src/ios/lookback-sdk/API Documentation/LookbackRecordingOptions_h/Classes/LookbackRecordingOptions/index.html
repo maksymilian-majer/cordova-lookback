@@ -378,8 +378,9 @@ function disclosure_triangle(elt) {
 </tr>
 </table></div>
 <h2>Introduction</h2>
-<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackRecordingOptions;name=start --><p>All the customizations you can do to Lookback. Customize default options,
-or create a new instance and use special options only for a specific recording.
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackRecordingOptions;name=start --><p>Model object for Lookback recording options.
+</p>
+<p>Pass to the Lookback singleton after configuring various properties to customize recording &amp; UI.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/cl/LookbackRecordingOptions;name=end --><!-- end discussion -->
 </p>
 <hr class="afterClassOrHeaderInfo">
@@ -429,6 +430,8 @@ Customize as you will, then start a recording with it.<!-- headerDoc=discussion;
 <dt><tt><a href="index.html#//apple_ref/occ/instp/LookbackRecordingOptions/cameraName" target="_top">cameraName</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/instp/LookbackRecordingOptions/captureClicks" target="_top">captureClicks</a></tt></dt>
+<dd></dd>
+<dt><tt><a href="index.html#//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled" target="_top">consoleRecordingEnabled</a></tt></dt>
 <dd></dd>
 <dt><tt><a href="index.html#//apple_ref/occ/instp/LookbackRecordingOptions/framerateLimit" target="_top">framerateLimit</a></tt></dt>
 <dd></dd>
@@ -543,6 +546,16 @@ you can implement +(NSString*)lookbackIdentifier in your view controller.
 </p>
 <p>Default value: NO
 <!-- headerDoc=discussion;uid=//apple_ref/occ/instp/LookbackRecordingOptions/captureClicks;name=end --><!-- end discussion -->
+</p>
+<hr class="betweenAPIEntries">
+<!-- headerDoc=instp;  uid=//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled;   name=LookbackRecordingOptions::consoleRecordingEnabled --><a name="//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled"></a>
+<h3><a name="consoleRecordingEnabled">consoleRecordingEnabled</a></h3>
+<hr class="afterName">
+<div class="declaration_indent">
+<pre><!-- headerDoc=declaration;uid=//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled;name=start -->@property(<span class="param">nonatomic</span>) <!-- a logicalPath="//apple_ref/occ/cl/BOOL //apple_ref/occ/tdef/BOOL //apple_ref/occ/tag/BOOL //apple_ref/occ/struct/BOOL //apple_ref/occ/intf/BOOL //apple_ref/doc/anysymbol/BOOL" machineGenerated="true" --><span class="type">BOOL</span><!-- /a --> <!-- a logicalPath="//apple_ref/occ/econst/consoleRecordingEnabled //apple_ref/occ/data/LookbackRecordingOptions/consoleRecordingEnabled //apple_ref/occ/data/consoleRecordingEnabled //apple_ref/occ/clconst/LookbackRecordingOptions/consoleRecordingEnabled " machineGenerated="true" --><span class="var">consoleRecordingEnabled</span><!-- /a -->; <!-- headerDoc=declaration;uid=//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled;name=end --></pre>
+</div>
+<h5 class="tight"><font face="Lucida Grande,Helvetica,Arial">Discussion</font></h5>
+<!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled;name=start --><p>When doing a Lookback screen recording, should the app's console log also be recorded? <!-- headerDoc=discussion;uid=//apple_ref/occ/instp/LookbackRecordingOptions/consoleRecordingEnabled;name=end --><!-- end discussion -->
 </p>
 <hr class="betweenAPIEntries">
 <!-- headerDoc=instp;  uid=//apple_ref/occ/instp/LookbackRecordingOptions/framerateLimit;   name=LookbackRecordingOptions::framerateLimit --><a name="//apple_ref/occ/instp/LookbackRecordingOptions/framerateLimit"></a>
@@ -680,9 +693,9 @@ Range: 0.1 to 1.0
 <!-- begin discussion --><!-- headerDoc=discussion;uid=//apple_ref/occ/instp/LookbackRecordingOptions/timeout;name=start --><p>Controls the timeout option when the app becomes inactive. "Inactive" in this context means that
 the user exists the app, or locks the screen.
 </p>
-<p>* Using 0 will stop a recording as soon as the app becomes inactive.
-* Using DBL_MAX will never terminate a recording when the app becomes inactive.
-* Any value in between will timeout and end the recording after the app has been inactive for
+<p>- Using 0 will stop a recording as soon as the app becomes inactive.
+- Using DBL_MAX will never terminate a recording when the app becomes inactive.
+- Any value in between will timeout and end the recording after the app has been inactive for
 the specified duration.
 <!-- headerDoc=discussion;uid=//apple_ref/occ/instp/LookbackRecordingOptions/timeout;name=end --><!-- end discussion -->
 </p>
@@ -723,7 +736,7 @@ you can use that here. Optional.
 </script><!-- end of footer --><hr class="afterFooter">
 <div class="hd_copyright_and_timestamp">
 <p class="hd_copyright">&copy; Lookback Inc. </p>
-<p class="hd_timestamp">Last Updated: October 30, 2015
+<p class="hd_timestamp">Last Updated: April 26, 2016
 </p>
 </div>
 </td>

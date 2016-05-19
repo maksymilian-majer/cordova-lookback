@@ -65,3 +65,8 @@ DEPRECATED_ATTRIBUTE typedef NS_ENUM(NSInteger, LookbackAfterTimeoutOption) {
 static NSString *const LookbackStartedUploadingNotificationName = @"com.thirdcog.lookback.notification.startedUploading";
 static NSString *const LookbackExperienceDestinationURLUserInfoKey = @"com.thirdcog.lookback.notification.startedUploading.destinationURL";
 static NSString *const LookbackExperienceStartedAtUserInfoKey = @"com.thirdcog.lookback.notification.startedUploading.sessionStartedAt";
+
+//  UserInfo contains LookbackExperienceDestinationURLUserInfoKey and LookbackExperienceNameUserInfoKey
+static NSString *const LookbackFinishedUploadingNotificationName = @"io.lookback.notification.finishedUploading";
+static NSString *const LookbackExperienceNameUserInfoKey = @"io.lookback.notification.name";
+

@@ -1,6 +1,17 @@
 #import <Foundation/Foundation.h>
 @class NSScreen;
 
+/*!
+ @header LookbackRecordingOptions.h
+ 
+ @abstract
+ All the customizations you can do to Lookback.
+ 
+ Customize default options, or create a new instance and use special options only for a specific recording.
+*/
+
+/*! Explicit values used for the <code>timeout</code> config option. 
+    @see timeout */
 typedef NS_ENUM(NSInteger, LookbackTimeoutOption) {
 	LookbackTimeoutImmediately = 0,
 	LookbackTimeoutAfter1Minutes = 60,
@@ -11,15 +22,19 @@ typedef NS_ENUM(NSInteger, LookbackTimeoutOption) {
 	LookbackTimeoutNever = NSIntegerMax,
 };
 
+/*! Post-recording behaviors to specify in the <code>afterRecording</code> option. 
+    @see afterRecording */
 typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 	LookbackAfterRecordingReview = 0,
 	LookbackAfterRecordingUpload,
 	LookbackAfterTimeoutUploadAndStartNewRecording,
 };
 
-/*! All the customizations you can do to Lookback. Customize default options,
-	or create a new instance and use special options only for a specific recording.
-*/
+/*!
+ Model object for Lookback recording options.
+ 
+ Pass to the Lookback singleton after configuring various properties to customize recording & UI.
+ */
 @interface LookbackRecordingOptions : NSObject <NSCopying>
 /*! Return a new LookbackRecordingOptions with all the defaults from the global options.
 	Customize as you will, then start a recording with it.*/
@@ -33,6 +48,9 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 
 /*! When doing a Lookback screen recording, should the user's voice also be recorded through the device's microphone? */
 @property(nonatomic) BOOL microphoneEnabled;
+
+/*! When doing a Lookback screen recording, should the app's console log also be recorded? */
+@property(nonatomic) BOOL consoleRecordingEnabled;
 
 /*! Whether the user should be shown a preview image of their face at the bottom-right of the screen while recording, to make sure that they are holding their device correctly and are well-framed. */
 @property(nonatomic) BOOL showCameraPreviewWhileRecording;
@@ -92,9 +110,9 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 #pragma mark - Lookback behavior related to recording
 
 /*! afterRecording controls the behavior of Lookback when the user stops recording, or recording times out (@see timeout).
-	* LookbackAfterRecordingReview will let the user manually preview a recording after it's been stopped, and decide wheter to upload or discard it; give it a name; and so on.
-	* LookbackAfterRecordingUpload will automatically upload without preview.
-	* LookbackAfterTimeoutUploadAndStartNewRecording will automatically start uploading, but if it was stopped
+	- LookbackAfterRecordingReview will let the user manually preview a recording after it's been stopped, and decide wheter to upload or discard it; give it a name; and so on.
+	- LookbackAfterRecordingUpload will automatically upload without preview.
+	- LookbackAfterTimeoutUploadAndStartNewRecording will automatically start uploading, but if it was stopped
 	  because of a timeout, it will also start a new recording the next time the app is brought to the foreground.
 	  This is basically the 'diary study' mode, where the user is always recorded.
  */
@@ -103,9 +121,9 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 /*! Controls the timeout option when the app becomes inactive. "Inactive" in this context means that
 	the user exists the app, or locks the screen.
 	
-	* Using 0 will stop a recording as soon as the app becomes inactive.
-	* Using DBL_MAX will never terminate a recording when the app becomes inactive.
-	* Any value in between will timeout and end the recording after the app has been inactive for
+	- Using 0 will stop a recording as soon as the app becomes inactive.
+	- Using DBL_MAX will never terminate a recording when the app becomes inactive.
+	- Any value in between will timeout and end the recording after the app has been inactive for
 	  the specified duration.
  */
 @property(nonatomic) LookbackTimeoutOption timeout;
@@ -186,6 +204,14 @@ typedef NS_ENUM(NSInteger, LookbackAfterRecordingOption) {
 #endif
 @end
 
-/*! These are automatically saved to NSUserDefaults when modified. You may only use the instance [Lookback sharedLookback].options.*/
+/*!
+ Singleton which persists default recording options to @c NSUserDefaults.
+ 
+ Change properties on this object to modify the default values populated in new @c LookbackRecordingOptions objects.
+ 
+ @note
+ These are automatically saved to NSUserDefaults when modified. You may only use the instance 
+ <code>[Lookback sharedLookback].options</code>.
+ */
 @interface LookbackDefaultRecordingOptions : LookbackRecordingOptions
 @end
